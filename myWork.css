@@ -1,0 +1,171 @@
+.mobile-container {
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+body {
+  margin: 0%;
+}
+
+.header #myLinks {
+  display: none;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.header a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.header a.icon {
+  background: #0a1f7b;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ham {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.active {
+  background-color: #0a1f7b;
+  color: white;
+  text-align: center;
+  font-size: 10%;
+}
+
+.myWorkCon {
+  display: flex;
+  justify-content: space-around;
+}
+
+#myWork {
+  width: 80%;
+}
+
+.logImg {
+  width: 100%;
+}
+#logImg3{
+  width: 50%;
+}
+.lh {
+  width: 63px;
+  height: 20px;
+  left: 217px;
+  top: 178px;
+
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.logPgCon {
+  display: flex;
+}
+
+.logInfCon {
+  width: 50%;
+  color: black;
+}
+
+.logInfCon1 {
+  margin-top: 34%;
+}
+
+h4 {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-size: 100%;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.logInfPara {
+  margin-top: 3%;
+}
+
+.logImgCon {
+  width: 50%;
+}
+#logImgCon3{
+width: 100%;
+  color: black;
+  display: flex;
+}
+
+.rBDPgCon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.rBDImgCon {
+  width: 50%;
+}
+
+.rBDImg {
+  width: 100%;
+}
+.rBDInfCon {
+  width: 50%;
+  color: black;
+
+}
+.rBDInfCon1 {
+  margin-top: 34%;
+  margin-left: 6%;
+}
+.rBDInfPara {
+  margin-top: 5%;
+}
+#login_img {
+  margin-left: 52%;
+  margin-top: -43%;
+}
+#login_text{
+  margin-top: 16%;
+  margin-bottom: auto;
+  background-image: url(./assests/Daksh/Group\ 577.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  height: 80%;
+  width: 50%;
+  background-position-x: right;
+}
+
+
+#rBDInfConimg2 {
+  width: 50%;
+  color: black;
+  background-size: 30%;
+  background-image: url('/Users/maheshgarade/Desktop/Daksh Site/Portfolio Website/assests/Group 578.png');
+    background-repeat: no-repeat;
+}

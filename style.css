@@ -1,0 +1,128 @@
+.mobile-container {
+  width: 100%;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+  }
+  
+  body {
+    margin: 0%;
+  }
+  
+  .header #myLinks {
+    display: none;
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .header a.icon {
+    background: #0a1f7b;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .ham {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  .active {
+    background-color: #0a1f7b;
+    color: white;
+    text-align: center;
+    font-size: 10%;
+  }
+  
+#homeinformCon {
+  box-sizing: border-box;
+  width: 88%;
+  height: 87px;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(
+    94.15deg,
+    rgba(173, 120, 195, 0.1) -4.45%,
+    rgba(232, 83, 123, 0.1) 69.57%,
+    rgba(241, 171, 29, 0.1) 98.87%,
+    rgba(151, 164, 208, 0.1) 133.32%
+  );
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: inset 11.8667px -11.8667px 11.8667px rgba(165, 165, 165, 0.1),
+    inset -11.8667px 11.8667px 11.8667px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12.46px);
+  border-radius: 10px;
+}
+#homeinform {
+  width: 100%;
+    height: 57px;
+    left: 43px;
+    top: 8px;
+    backdrop-filter: initial;
+    font-family: "Philosopher";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+#myWork{
+  width: 80%;
+display: flex;
+align-items: center;
+}
+
+#homWork{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -34%;
+}
+
+.more{
+  border: 1px solid black;
+    height: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.lapImg{
+  width: 70%;
+}
+
+.myWorkCon{
+  display: flex;
+  justify-content: space-around;
+}
+#more_img{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#bg1{
+  z-index: -1;
+    width: 31%;
+    margin-top: -8%;
+}

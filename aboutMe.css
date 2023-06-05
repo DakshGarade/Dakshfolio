@@ -1,0 +1,97 @@
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #fff;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+body {
+  margin: 0%;
+}
+
+.header #myLinks {
+  display: none;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.header a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.header a.icon {
+  background: #0a1f7b;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ham {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.active {
+  background-color: #0a1f7b;
+  color: white;
+  text-align: center;
+  font-size: 10%;
+}
+
+#aboutMecon {
+display: flex;
+margin-top: 3%;
+justify-content: space-around;
+}
+
+#aboutMe {
+  margin-top: 0;
+  width: 80%;
+}
+#myPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#bigChild {
+  border: 1px solid #f4f4f4;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#hp {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}

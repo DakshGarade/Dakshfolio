@@ -1,0 +1,209 @@
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #fff;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+body {
+  margin: 0%;
+}
+
+.header #myLinks {
+  display: none;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.header a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.header a.icon {
+  background: #0a1f7b;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ham {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.active {
+  background-color: #0a1f7b;
+  color: white;
+  text-align: center; 
+  font-size: 10%;
+}
+
+#homeinformCon {
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 10%;
+
+  width: 342px;
+  height: 87px;
+  left: 24px;
+  top: 347px;
+
+  background: linear-gradient(
+    94.15deg,
+    rgba(173, 120, 195, 0.1) -4.45%,
+    rgba(232, 83, 123, 0.1) 69.57%,
+    rgba(241, 171, 29, 0.1) 98.87%,
+    rgba(151, 164, 208, 0.1) 133.32%
+  );
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: inset 11.8667px -11.8667px 11.8667px rgba(165, 165, 165, 0.1),
+    inset -11.8667px 11.8667px 11.8667px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12.46px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+#homeinform {
+  width: 303px;
+  height: 57px;
+  left: 43px;
+  top: 8px;
+  backdrop-filter: initial;
+
+  font-family: "Philosopher";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+
+#p1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 20px;
+  font-family: cursive;
+  margin-top: 0;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+#p2 {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 6%;
+  word-break: break-all;
+}
+
+.row {
+  display: flex;
+}
+
+#contactuscon {
+display: flex;
+justify-content: space-around;
+  
+}
+
+#contactus {
+  margin-top: 0;
+  width: 80%;
+  color: #f2b031;
+  margin-top: 3%;
+}
+
+#hey {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: fantasy;
+  font-size: xx-large;
+  letter-spacing: -0.02em;
+  margin-left: 6%;
+  color: #000000;
+}
+
+.inp {
+  box-sizing: border-box;
+  width: 80%;
+  height: 40px;
+  border: 0.5px solid rgba(106, 123, 191, 0.5);
+  border-radius: 5px;
+  margin-left: 11%;
+}
+
+.inp2 {
+  box-sizing: border-box;
+  width: 80%;
+  height: 40px;
+  border: 0.5px solid rgba(106, 123, 191, 0.5);
+  border-radius: 5px;
+  margin-top: 7%;
+  margin-left: 11%;
+}
+
+.inp3 {
+  box-sizing: border-box;
+  width: 80%;
+  height: 76px;
+  border: 0.5px solid rgba(106, 123, 191, 0.5);
+  border-radius: 5px;
+  margin-top: 7%;
+  margin-left: 11%;
+  padding-bottom: 43px;
+}
+
+#submit {
+  background-color: #071a7b;
+  color: white;
+  margin-top: 2%;
+  margin-left: 40%;
+  border: #071a7b;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-left: 80px;
+  font-size: large;
+}
+
+.imgCon{
+  width: 50%;
+}
+.paraCon{
+  width: 50%;
+} 
+.forImg{
+  background-image: url('/Users/maheshgarade/Desktop/Daksh Site/Portfolio Website/assests/Group 578.png');
+  background-repeat: no-repeat;
+    background-position-y: bottom;
+}
